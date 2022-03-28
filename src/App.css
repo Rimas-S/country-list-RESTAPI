@@ -1,0 +1,14 @@
+.App {
+  background-color: var(--background);
+  min-height: 100vh;
+  padding-top: 60px;
+}
+
+.App_theme {
+  position: absolute;
+  top: 0;
+  right: 15%;
+    text-align: center;
+    color: var(--primary-color);
+    padding: 5px;
+}

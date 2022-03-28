@@ -1,0 +1,30 @@
+.main-header {
+  margin-top: 10px;
+}
+
+.main-header_search {
+  position: fixed;
+  top: 1%;
+  left: 1%;
+  opacity: 80%;
+  box-shadow: rgba(var(--primary-color-rgb), 0.35) 0px 5px 15px;
+  border-radius: 10px;
+}
+
+.main-header_search input {
+  width: 25vw;
+  padding: 5px;
+}
+
+.main-header_cart {
+  color: var(--primary-color);
+  z-index: 1;
+  position: fixed;
+  top: 1%;
+  right: 2%;
+  opacity: 90%;
+  background-color: var(--background-secondary);
+  box-shadow: rgba(var(--primary-color-rgb), 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  padding: 5px 20px;
+}

@@ -1,0 +1,39 @@
+.cartPage {
+  max-width: 1400px;
+  margin: auto;
+  text-align: center;
+}
+
+.cartPage h2 {
+  padding: 20px;
+  color: var(--primary-color);
+}
+.cartPage h3 {
+  color: var(--primary-color);
+}
+
+.h3_empty-basket {
+  margin-bottom: 20px;
+}
+
+.cartPage h5 {
+  color: var(--primary-color);
+}
+
+.cartPage_item {
+  text-align: start;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 100px;
+  align-items: center;
+  background-color: var(--background-secondary);
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: rgba(var(--shadow-cart), 0.4) 0px 0px 0px 2px,
+    rgba(var(--shadow-cart), 0.65) 0px 4px 6px -1px,
+    rgba(var(--shadow-cart-white), 0.08) 0px 1px 0px inset;
+}
+
+.cartPage_item:hover {
+  background-color: var(--color-hover);
+}

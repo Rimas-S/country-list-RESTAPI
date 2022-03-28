@@ -1,0 +1,40 @@
+th {
+  vertical-align: middle;
+}
+td {
+  vertical-align: middle;
+}
+
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.table-header p {
+  margin: 0;
+}
+
+.table-header button {
+  background: transparent;
+  border: none;
+}
+
+.table-header_icon {
+  font-size: 25px;
+  color: var(--primary-color);
+}
+
+.table-header_icon-active {
+  color: var(--blue);
+  font-size: 25px;
+  transform: scale(1.1);
+}
+
+.table-body td a:hover {
+  font-weight: bold;
+}
+
+.table-body_icon {
+  font-size: 25px;
+  padding-left: 5px;
+}
